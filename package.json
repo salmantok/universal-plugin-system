@@ -1,6 +1,6 @@
 {
   "name": "universal-plugin-system",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Kerangka kerja yang memungkinkan penambahan atau penggantian fitur secara dinamis melalui penggunaan plugin.",
   "main": "lib/index.js",
   "type": "module",
