@@ -1,0 +1,29 @@
+{
+  "name": "universal-plugin-system",
+  "version": "0.1.7",
+  "description": "Kerangka kerja yang memungkinkan penambahan atau penggantian fitur secara dinamis melalui penggunaan plugin.",
+  "main": "lib/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test/ups.test.js"
+  },
+  "keywords": [
+    "universal-plugin-system",
+    "universal-plugin",
+    "universal-system",
+    "plugin-system",
+    "universal",
+    "plugin",
+    "system"
+  ],
+  "author": "salmantok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salmantok/universal-plugin-system.git"
+  },
+  "homepage": "https://github.com/salmantok/universal-plugin-system#readme",
+  "files": [
+    "lib/"
+  ]
+}
