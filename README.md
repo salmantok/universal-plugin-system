@@ -13,12 +13,14 @@ const system = ups()
 
 // plugin sync
 system.use({
-  run: () => console.log('Plugin sync dijalankan!'),
+  run() {
+    console.log('Plugin sync dijalankan!')
+  },
 })
 
 // plugin callback
 system.use({
-  run: () => {
+  run() {
     console.log('Plugin callback mulai...')
     setTimeout(() => console.log('Plugin callback selesai!'), 15)
   },
@@ -26,7 +28,7 @@ system.use({
 
 // plugin Promise
 system.use({
-  run: async () => {
+  async run() {
     console.log('Plugin Promise mulai...')
     await new Promise((resolve) => setTimeout(resolve, 15))
     console.log('Plugin Promise selesai!')
@@ -50,7 +52,7 @@ Plugin Promise selesai!
 Semua plugin selesai dijalankan!
 ```
 
-## Kontribusi Finansial
+## Donasi
 
 [Ko-fi](https://ko-fi.com/salmantok)
 

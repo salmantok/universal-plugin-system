@@ -2,7 +2,8 @@
   "name": "universal-plugin-system",
   "version": "0.1.8",
   "description": "Kerangka kerja yang memungkinkan penambahan atau penggantian fitur secara dinamis melalui penggunaan plugin.",
-  "main": "lib/index.js",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
   "type": "module",
   "scripts": {
     "test": "node test/ups.test.js"

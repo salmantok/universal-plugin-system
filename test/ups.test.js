@@ -1,5 +1,5 @@
 import assert from 'assert'
-import ups from '../lib/index.js'
+import ups from '../lib/esm/index.js'
 
 // buat instance ups
 const system = ups()
@@ -9,7 +9,7 @@ const log = []
 
 // plugin sync
 system.use({
-  run: () => log.push('Plugi sync dijalankan!'),
+  run: () => log.push('Plugin sync dijalankan!'),
 })
 
 // plugin callback
