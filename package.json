@@ -25,6 +25,6 @@
   },
   "homepage": "https://github.com/salmantok/universal-plugin-system#readme",
   "files": [
-    "lib/"
+    "./lib/"
   ]
 }
