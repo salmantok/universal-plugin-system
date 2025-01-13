@@ -1,5 +1,5 @@
 import assert from 'assert'
-import ups from '../lib/esm/index.js'
+import ups from '../dist/esm/index.js'
 
 // buat instance ups
 const system = ups()
